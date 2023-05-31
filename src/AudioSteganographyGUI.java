@@ -14,6 +14,9 @@ import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
+import java.awt.Image;
+import javax.swing.ImageIcon;
+
 
 public class AudioSteganographyGUI extends JFrame {
 
@@ -26,6 +29,8 @@ public class AudioSteganographyGUI extends JFrame {
 	    private JButton DiscloseButton;
 	    private JButton ExitButton;
 	    private JLabel wallpaperLabel;
+	    private Image backgroundImage;
+
 
 	    public AudioSteganographyGUI() {
 	    	loadComponent();
